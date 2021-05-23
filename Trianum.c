@@ -25,7 +25,7 @@ int trianum(int n){
         }
 }
 
-//Dentro del main se llama la funciòn trianum para que imprima los primeros 100 números
+//Dentro del main se llama la función trianum para que imprima los primeros 100 números
 //triangulares.
 int main(){
         printf("Los primeros 100 números triangulares son:\n");
