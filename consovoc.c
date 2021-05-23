@@ -25,7 +25,7 @@ int main(void)
 {
 
 //Se le dan instrucciones al usuario y se le solicita que ingrese una letra
-printf("¿Consonante o vocal? \n Intrucciones:\n 1.Solo pueden usarse letras minúsculas. \n 2.No ingrese otros caracteres que no sean letras\n");
+printf("¿Consonante o vocal? \n Intrucciones:\n 1.Solo pueden usarse letras minúsculas. \n 2.No ingrese otros caracteres que no sean letras.\n");
 printf("Por favor, introduce una letra:\n");
 
 //Con el comando getchar, la letra introducida por el usuario será almacenada en la variable caracter
@@ -51,8 +51,6 @@ int c=comparar(caracter,lc,consonantes);
 
 if(v==1){
 	 printf("la letra ingresada es una vocal\n");
-
-	printf("%d\n",lc);
 }
 
 if(c==1){
