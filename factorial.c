@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//Para que el código funcionara, se eliminó el prefijo int de la n en la línea 7
 int factorial (int n){
 	int i=1;
 	while(n>1){
