@@ -1,15 +1,15 @@
 #include <stdio.h>
 
 
-//La siguiente función, compara una por una las entradas de un array consovoc (de tamaño l, que contiene una serie ya sea de consosnantes o de vocales)
+//La siguiente función, compara una por una las entradas de un array cov(de tamaño l, que contiene una serie ya sea de consosnantes o de vocales)
 //con un caracter b ingresado por el usuario. Si alguna de las letras del array coincide con el caracter ingresado, la función retornará un 1(true)
 
-int comparar(char b, int l, char consovoc[]){
+int comparar(char b, int l, char cov[]){
         int boole=0;
         int i = 0;
 
         while (i<l){
-                if (b==consovoc[i]){
+                if (b==cov[i]){
                 boole=1;
                 break;
                 }
